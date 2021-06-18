@@ -1,0 +1,73 @@
+site_name: Leonardo Nazario Rosa - FabAcademy 2021
+
+repo_name: 'leonrosa/FabAcademy'
+repo_url: 'https://github.com/leonrosa/FabAcademy'
+site_description: 'My FabAcademy documentation'
+site_author: 'LeonardoNR'
+site_url: 'https://leonrosa.github.io/FabAcademy/'
+copyright: 'Creative Commons Attribution Non Commercial'
+
+
+theme:
+    name: material
+    features:
+        - navigation.tabs
+        - navigation.sections
+        - navigation.expand
+        - navigation.top
+        - toc.integrate
+        - navigation.instant
+    
+    font:
+        text: Quicksand
+        code: Roboto Mono
+    
+    palette:
+    #light mode
+        - media: "(prefers-color-scheme: light)"
+          scheme: lautrec
+          primary: none
+          accent: none
+          toggle:
+            icon: material/toggle-switch-off-outline
+            name: Switch to dark mode
+        
+        
+    #dark mode  
+        - media: "(prefers-color-scheme: dark)"
+          scheme: lautrec_dark
+          primary: none
+          accent: none
+          toggle:
+            icon: material/toggle-switch
+            name: Switch to light mode
+        
+
+    
+# extras
+extra_css:
+    - stylesheets/extra.css      
+
+nav:
+    - Home: home.md
+    - About: about.md
+    - Assignments: 
+        - 1.Principles and Pratices: Principles and Practices.md
+    
+    
+    
+markdown_extensions:
+    - attr_list
+    - pymdownx.emoji:
+        emoji_index: !!python/name:materialx.emoji.twemoji
+        emoji_generator: !!python/name:materialx.emoji.to_svg
+    - toc:
+        permalink: true
+    - admonition
+    - pymdownx.details
+    - pymdownx.superfences
+    - pymdownx.highlight
+        
+plugins:
+    ##- git-revision-date
+    - search
