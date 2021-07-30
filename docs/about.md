@@ -1,5 +1,6 @@
 # About Me
 
+<<<<<<< HEAD
 Currently working as technician in Insper Fab Lab, São Paulo. I have a Bachelor's degree in Industrial Design by Centro Universitário Senac. Since my graduation I have been involved with digital fabrication and prototyping proccess. 
 
 I worked in a public network of Fab Labs between 2015 and 2018, where I had the oportunity to develop projects and workshops with the comunity in the region. The main goal of the project were to turn the digital fabrication technology accessible to the poorest and neediest communities in São Paulo, providing free laboratories as learning and developing spaces.
