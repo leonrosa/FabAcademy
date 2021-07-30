@@ -1,6 +1,6 @@
 # Home
 
-This website will work as a space where I will document every activity and development of teh FabAcademy program.
+This website will work as a space where I will document every activity and development of the FabAcademy program.
 Here you will find contents related with the following subjects:
 
 - Weekly program assignments
