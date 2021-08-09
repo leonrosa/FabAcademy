@@ -22,6 +22,8 @@ To build my personal website for the final project documentation, I needed to le
 
 Both Git and Github I already used a few times before. I learned a little about version control with Git and Github in a course on [Alura](https://www.alura.com.br/curso-online-git-github-controle-de-versao), a online courses platform. But I never used Markdown and Mkdocs before, despite having already heard about them. During the website building process I learned how to use them, discovering and testing about the functions, tools, etc.
 
+My main reference to create the website was from my co-worker Eliana Rodrigues Martins, who started developing her [documentation](https://rmeliana.github.io/FabAcademy/) before me and already discovered how to navigate with those tools.
+
 Following are the steps I took to create the documentation website for my Fab Academy projects.
 
 ### Installing Python, Git, Mkdocs and Materials for Mkdocs
