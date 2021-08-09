@@ -44,21 +44,34 @@ My plan is using this new machine to equip the Insper Fab Lab where I work. It i
 
 &nbsp;
 
-To build the design for the injection mold machine, I chose to develop a structure similar to the bench drill stands. The main reference for this project is a DIY injection mold machine made by [Buster Beagle 3D](https://www.youtube.com/watch?v=HoSVPHVESiE).
+To build the design for the injection mold machine, I chose to develop a structure similar to the bench drill stands. The main reference for this project is a DIY injection mold machine made by [Buster Beagle 3D](https://www.youtube.com/channel/UCzQXsDo_IF1EJodh3MGvUHw).
+&nbsp;
 
-**put the video here**
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HoSVPHVESiE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center>
+&nbsp;
+
+<center>
+![Bench Drill Suppor 1](imgs/bench_drill_support(1).jpg){style="width:350px"}  &nbsp;&nbsp;&nbsp; ![Bench Drill Suppor 1](imgs/bench_drill_support(2).jpg){style="width:350px"} 
+</center>
+&nbsp;
 
 I chose this structure because the alternative, a horizontal structure that consist in a thread responsible to inject the plastic, would demand a larger space to be occupied on the desk. By making this choice, I would restrict the size of the mold that could be used for injection. But it would not be a problem since it would still be possible to validate all the questions raised above. If the project demands a bigger mold, it would still be possible to prototype a scaled model of the developing part.
 
 ### Ideation Sketches
 
-**put the ideation sketches here**
+<center>
+![Ideation Sketches](imgs/ideation_sketch.jpg){style="width:750px"}
+</center>
 
 &nbsp;
 
 ### Concept Sketch
 
-**put the concept sketch here**
+<center>
+![Ideation Sketches](imgs/concept_sketch.jpg){style="height:600px"}
+</center>
 
 &nbsp;
 

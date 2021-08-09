@@ -68,6 +68,7 @@ markdown_extensions:
     - pymdownx.details
     - pymdownx.superfences
     - pymdownx.highlight
+    - pymdownx.tabbed
         
 plugins:
     ##- git-revision-date
