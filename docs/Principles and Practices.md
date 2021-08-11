@@ -70,7 +70,7 @@ I chose this structure because the alternative, a horizontal structure that cons
 ### Concept Sketch
 
 <center>
-![Ideation Sketches](imgs/concept_sketch.jpg){style="height:600px"}
+![Concept Sketches](imgs/concept_sketch.jpg){style="height:600px"}
 </center>
 
 &nbsp;
