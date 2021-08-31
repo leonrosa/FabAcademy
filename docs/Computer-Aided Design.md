@@ -119,9 +119,9 @@ Here are the steps used for the logo development:
 
     &nbsp;
     
-    <center>
+   
     ![Paint Screenshot 1](imgs/paint_screenshot_1.jpg){style="width:950px"}
-    </center>
+    
     &nbsp; 
 
     <center>

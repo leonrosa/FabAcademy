@@ -62,3 +62,10 @@
   --md-footer-bg-color:              #8F7180;
   --md-footer-bg-color--dark:        #5E4B54;
 }
+
+/* Centralizar Imagens*/
+
+img {
+    display: block;
+    margin: 0 auto;
+   }

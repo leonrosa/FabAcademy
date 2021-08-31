@@ -47,7 +47,9 @@ theme:
     
 # extras
 extra_css:
-    - stylesheets/extra.css    
+    - stylesheets/extra.css  
+    - stylesheets/gallery.min.css 
+    - stylesheets/gallery.theme.css   
 
 nav:
     - Home: index.md
