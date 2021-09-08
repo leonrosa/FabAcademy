@@ -47,7 +47,9 @@ theme:
     
 # extras
 extra_css:
-    - stylesheets/extra.css      
+    - stylesheets/extra.css  
+    - stylesheets/gallery.min.css 
+    - stylesheets/gallery.theme.css   
 
 nav:
     - Home: index.md
@@ -56,7 +58,11 @@ nav:
         - 1.Principles and Pratices: Principles and Practices.md
         - 2.Project Management: Project Management.md
         - 3.Computer-Aided Design: Computer-Aided Design.md
+<<<<<<< HEAD
         - 4.Computer-Controlled Cutting: Computer-Controlled Cutting.md
+=======
+        - 5.Carousel: img_carousel_test.md
+>>>>>>> 58123ec61057ccf56c069bdd0aa4318352fcbabf
     
     
     

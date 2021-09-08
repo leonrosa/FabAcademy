@@ -118,10 +118,10 @@ Here are the steps used for the logo development:
 1. First of all, I needed to use a image as reference to develop the logo. To do that I imported to **Microsoft Paint**, a native illustration software from Windows, the concept sketch developed in Krita and cutted the sideview using the selection tool.
 
     &nbsp;
-
-    <center>
+    
+   
     ![Paint Screenshot 1](imgs/paint_screenshot_1.jpg){style="width:950px"}
-    </center>
+    
     &nbsp; 
 
     <center>
@@ -135,7 +135,6 @@ Here are the steps used for the logo development:
     &nbsp; 
 
 2. Then I draged this imaged into the Inkscape workspace.
-
     &nbsp; 
 
     <center>
