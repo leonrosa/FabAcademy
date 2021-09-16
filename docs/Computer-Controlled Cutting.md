@@ -1,3 +1,5 @@
+# 4. Computer-Controlled Cutting
+
 ## Group Assignment
 
 &nbsp;
@@ -225,7 +227,7 @@ For the vinyl cutter exercise, I used the logo developed through Inkscape in the
 </center>
 &nbsp;
 
-After rezising the logo as I wanted, I saved it in a `.pdf`file.
+After rezising the logo as I wanted, I saved it in a `.pdf` file.
 
 &nbsp;
 
@@ -254,10 +256,31 @@ I connected my lap top with the vinyl cutter machine using a USB cable and place
 &nbsp;
 
 Then I ran a routine in the machine called "piece" which makes the machine identify the material and display the dimension avaiable for cuts, what in this case was 114 x 157mm.
-
 &nbsp;
 
-<center>
-![Vinyl Cutter 6](imgs/vinylcutter_6.jpg){.center style="height:650px"} &nbsp;&nbsp;&nbsp; ![Vinyl Cutter 7](imgs/vinylcutter_7.jpg){.center style="height:650px"}
-</center>
+![Vinyl Cutter 6](imgs/vinylcutter_6.jpg){.center style="height:650px"} 
+&nbsp; 
+
+![Vinyl Cutter 7](imgs/vinylcutter_7.jpg){.center style="height:650px"}
+&nbsp;
+
+In the lap top, I open the `.pdf` file in the [Adobe Acrobat Reader](https://www.adobe.com/br/acrobat/pdf-reader.html) and pres the **print** button. With the print configuration window opened, I selected **Roland GX-24** as my printer. I selected the **Properties** button and git the cutting area from machine. Finally I closed the properties window and pressed the print button. The machine started to cut the sticker.
+&nbsp;
+
+![Vinyl Cutter 8](imgs/vinylcutter_8.jpg){.center style="width:950px"}
+&nbsp;
+
+![Vinyl Cutter 9](imgs/vinylcutter_9.jpg){.center style="width:950px"}
+&nbsp;
+
+![Vinyl Cutter 10](imgs/vinylcutter_10.jpg){.center style="width:950px"}
+&nbsp;
+
+![Vinyl Cutter 11](imgs/vinylcutter_11.gif){.center style="width:480px"}
+&nbsp;
+
+Here it is the result:
+&nbsp;
+
+![Vinyl Cutter 12](imgs/vinylcutter_12.jpg){.center style="width:480px"}
 &nbsp;

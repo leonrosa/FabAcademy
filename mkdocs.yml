@@ -58,11 +58,10 @@ nav:
         - 1.Principles and Pratices: Principles and Practices.md
         - 2.Project Management: Project Management.md
         - 3.Computer-Aided Design: Computer-Aided Design.md
-<<<<<<< HEAD
         - 4.Computer-Controlled Cutting: Computer-Controlled Cutting.md
-=======
-        - 5.Carousel: img_carousel_test.md
->>>>>>> 58123ec61057ccf56c069bdd0aa4318352fcbabf
+        - 5.Electronics Production: Electronics Production.md
+        - 6. 3D Scanning and Printing: 3D Scanning and Printing.md
+        - Carousel: img_carousel_test.md
     
     
     
