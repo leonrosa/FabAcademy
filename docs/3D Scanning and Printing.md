@@ -11,7 +11,7 @@
 ### 3D Printing
 &nbsp;
 
-***Explicação do processo de fabricação e do arquivo Gcode.
+3D printing is a process of fabricating a three dimensional objects through a 3D digital model created in a Computer-Aided Design software (CAD). The process consists of the arrangement of successive layers to create the object and each layer can be seen as a thinly sliced cross-section of the object.
 
 &nbsp;
 
@@ -39,6 +39,16 @@ Here are the equipment specifications:
 
 To fulfill the requirements of this assignment, I used the [3D Printer Test Models](https://www.thingiverse.com/thing:533472/files) created by [Make Magazine](https://makezine.com/). It is possible to download the files [here](4Downloads/3D_printing_testers.zip).
 
+The test models avaiables in those files are:
+
+- Dimensional Accuracy
+- Bridging Performance
+- Overhang Performance
+- Negative Space Tolerance
+- Fine Positive Features Performance
+- XY Resonance
+- Z Resonance
+
 I imported the files into [Cura](https://ultimaker.com/software/ultimaker-cura), a software developed by [Ultimaker](https://ultimaker.com/) where is possible to set up the printing configurations and parameters.
 
 &nbsp;
@@ -46,7 +56,7 @@ I imported the files into [Cura](https://ultimaker.com/software/ultimaker-cura),
 ![Cura Screenshot 1](imgs/cura_screenshot_1.jpg){.center style="width:950px"}
 &nbsp;
 
-I set up the printing for ABS material and with the following parameters:
+I set up the printing for PLA material and with the following parameters:
 
 - **Layer Height:** 0.15mm
 - **Wall Line Count:** 4
@@ -91,15 +101,35 @@ From the main menu I selected the "print" option followed by the selection of th
 
 &nbsp;
 
-The buildplate and the hotend will start to heat up until **100°C** and **230°C** respectively (temperatures set up for ABS material) and as soon the temperature is reached, the printing process will start.
+The buildplate and the hotend will start to heat up until **60°C** and **200°C** respectively (temperatures set up for PLA material) and as soon the temperature is reached, the printing process will start.
 
 &nbsp;
 
-![Cura Screenshot 7](imgs/cura_screenshot_7.gif){.center style="width:950px"}
+![Cura Screenshot 7](imgs/cura_screenshot_7.jpg){.center style="width:950px"}
 
 &nbsp;
 
-***Describe the results of the printing
+![Cura Screenshot 8](imgs/cura_screenshot_8.jpg){.center style="width:950px"}
+
+&nbsp;
+
+By the end of the process, I got the following result:
+
+&nbsp;
+
+![Cura Screenshot 9](imgs/cura_screenshot_9.jpg){.center style="width:950px"}
+
+&nbsp;
+
+Unfortunately, I notice that some shapes from this print did not came up as I expected. On the the ***dimension accuracy model*** and ***the negative space tolerance model*** the cylinders did not came out rounded but with an elliptical shape.
+
+&nbsp;
+
+![Cura Screenshot 10](imgs/cura_screenshot_10.jpg){.center style="width:950px"}
+
+&nbsp;
+
+This happened cause the axis and belts from the printer were not aligned and tied enough. Then I needed to  adjust them and repeat the printing process.
 
 &nbsp;
 
