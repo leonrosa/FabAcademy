@@ -26,7 +26,10 @@ My main reference to create the website was from my co-worker Eliana Rodrigues M
 
 Following are the steps I took to create the documentation website for my Fab Academy projects.
 
+&nbsp;
+
 ### Installing Python, Git, Mkdocs and Materials for Mkdocs
+&nbsp;
 
 *Operating System: Windows 10*
 
@@ -78,13 +81,22 @@ Following are the steps I took to create the documentation website for my Fab Ac
 
     ```
 
-10. After the installation is done, it is going to be possible to start the website building. In the [Mkdocs website](https://www.mkdocs.org/) you can follow the first steps to prepare the documentation in your own static website. You cand find the guide in the [Getting Started](https://www.mkdocs.org/getting-started/) section.
+10. After the installation is done, it is going to be possible to start the website building. In the [Mkdocs website](https://www.mkdocs.org/) you can follow the first steps to prepare the documentation in your own static website. You cand find the guide in the 
+[Getting Started](https://www.mkdocs.org/getting-started/) section.
 
-    ![Getting Started](imgs/mkdocs_getting_started.jpg){style="width:950px"}
+    &nbsp;
 
+    ![Getting Started](imgs/mkdocs_getting_started.jpg){.center .image}
+
+    &nbsp;
+ 
 11. This guide will teach you how to create a new project as wel as adding pages, theming the documentation and using icons through the YAML configuration file.
 
-    ![Creating Project](imgs/creating_new_project.jpg){style="width:950px"}
+    &nbsp;
+
+    ![Creating Project](imgs/creating_new_project.jpg){.center .image}
+
+    &nbsp;
 
 12. In my project, I used a theme called [Materials for Mkdocs](https://squidfunk.github.io/mkdocs-material/). Since it is a theme that does not come with Mkdocs, I needed to install it using the following line:
 
@@ -94,7 +106,11 @@ Following are the steps I took to create the documentation website for my Fab Ac
 
 13. With the theme installed, I just needed to set the name **material** on the folowwing line in the mkdocs.yml file to use it.
 
-    ![Theme Material](imgs/theme_material.jpg){style="width:950px"}
+    &nbsp;
+
+    ![Theme Material](imgs/theme_material.jpg){.center .image}
+
+    &nbsp;
 
 14. Write the following command line in the terminal to preview the new site with the Material theme:
 
@@ -102,29 +118,48 @@ Following are the steps I took to create the documentation website for my Fab Ac
         $ mkdocs serve
     ```
 
-### Setting up the theme colors 
+&nbsp;
+
+### Setting up the theme colors
+&nbsp;
 
 Material for Mkdocs allows the user to customize the colors of the theme. I followed the instuction found in the [Changing the color](https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/) section to customize my documentation site. Unfortunatly I could not identify myself with the color palette and with the combination options offered by the theme. Then I could discovered how to create my own color scheme. Here it is the steps to create your own color scheme:
 
 1. At the [Changing the color](https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/) section, scroll down until you find the orientations about Custom colors and custom color schemes.
 
-    ![Custom Colors](imgs/custom_colors.jpg){style="width:950px"}
+    &nbsp;
+
+    ![Custom Colors](imgs/custom_colors.jpg){.center .image}
+
+    &nbsp;
 
 2. Basically, you will have to add new colors in a **extra.css** located at *you-project-folder/docs/stylesheets. You will need to define the values of certain css variables to add new colors. To check out which variables are avaiable you can use the [color definition](https://github.com/squidfunk/mkdocs-material/blob/master/src/assets/stylesheets/main/_colors.scss) section.
 
 3. Since the colors definition is set by hexadecimal code, I used the [Adobe Color](https://color.adobe.com/pt/create/color-wheel) to help me to set my color scheme. Adobe Color has a tool to extract the color palette from images. As a great fan from art noveau and Toulouse Lautrec, I defined my color scheme from the *Jane Avril* poster.
 
-    ![Adobe Color](imgs/adobe_color.jpg){style="width:950px"} ![]
+    &nbsp;
+
+    ![Adobe Color](imgs/adobe_color.jpg){.center .image} 
+
+    &nbsp;
 
 4. The tool returns the respective hexadecimal code values of the colors. With those informations, I configured my light and dark theme in the **extra.css** file like the image below:
 
-    ![Light Model](imgs/light_mode.jpg){style="height:600px"} ![Dark Model](imgs/dark_mode.jpg){style="height:600px"}
+    &nbsp;
+
+    ![Light Model](imgs/light_mode.jpg){.centerGroup} &nbsp; ![Dark Model](imgs/dark_mode.jpg){.centerGroup}
+
+    &nbsp;
 
 5. With this file configured, my documentation site will looks like the one you are navigating now.
 
+&nbsp;
+
 <center>
-![Jane Avril](imgs/jane_avril.jpg){style="height:350px"} ![Light Mode Screen](imgs/light_mode_screen.jpg){style="height:350px"}
+![Jane Avril](imgs/jane_avril.jpg){style="height:350px"} &nbsp; ![Light Mode Screen](imgs/light_mode_screen.jpg){style="height:350px"}
 </center>
+
+&nbsp;
 
 ### Deploying to Github and Automating the Process
 
@@ -135,9 +170,13 @@ Once the files are on the GitHub repository, everytime that we need to make an u
 !!! Important "Install all dependencies before update the documentation."
     - Create the file 'requirement.txt' on the roof of the documentation main folder.
       
+        &nbsp;
+
         <figure>
-        ![Requirement File](imgs/requirement_file.jpg){style="width:600px"}
+        ![Requirement File](imgs/requirement_file.jpg){.center .image}
         </figure>
+
+        &nbsp;
     
     - Inside the file, write the following lines:
         ```
@@ -156,6 +195,7 @@ Once the files are on the GitHub repository, everytime that we need to make an u
                 pip install mkdocs-git-revision-date-plugin
         ```
 
+&nbsp; 
 
 ## Code Editor and Terminal
 &nbsp;

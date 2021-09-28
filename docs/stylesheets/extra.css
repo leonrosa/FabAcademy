@@ -63,9 +63,22 @@
   --md-footer-bg-color--dark:        #5E4B54;
 }
 
+/* Tamanho Padrão de Imagens*/
+
+
+.image {
+  width: 50vw;
+}
+
+
+
 /* Centralizar Imagens*/
 
-img {
+.center {
     display: block;
     margin: 0 auto;
    }
+
+.centerGroup {
+  width: 30vw;
+}

@@ -121,22 +121,36 @@ By the end of the process, I got the following result:
 
 &nbsp;
 
-Unfortunately, I notice that some shapes from this print did not came up as I expected. On the the ***dimension accuracy model*** and ***the negative space tolerance model*** the cylinders did not came out rounded but with an elliptical shape.
+Unfortunately, I notice that some shapes from this print did not came up as I expected. On the the ***dimension accuracy model*** and ***the negative space tolerance model*** the cylinders did not came out rounded but with an elliptical shape. This happened cause the axis and belts from the printer were not aligned and tied enough. Then I needed to adjust them and repeat the printing process. After disassembling, cleaning, aligning and assembling the printer again, I printed the testers one more time and got a better result.
 
 &nbsp;
 
-![Cura Screenshot 10](imgs/cura_screenshot_10.jpg){.center style="width:950px"}
+![Cura Screenshot 10](imgs/cura_screenshot_10.jpg){.center}
 
 &nbsp;
 
-This happened cause the axis and belts from the printer were not aligned and tied enough. Then I needed to  adjust them and repeat the printing process.
+![Cura Screenshot 11](imgs/cura_screenshot_11.jpg){.center}
 
 &nbsp;
 
-## Individual Assignment
-&nbsp;
-
-- Design and 3D print an object (small, few cm3, limited by printer time) that could not be easily made subtractively
-- 3D scan an object, try to prepare it for printing (and optionally print it)
+With that issue fixed, I could evaluate the testers that were printed.
 
 &nbsp;
+
+### Dimensional Accuracy
+
+&nbsp;
+
+The ***Dimensional Accuracy tester*** came out as expected. After fixing the alignment issue that resulted in a elliptical body, the second printed tester came out rounded as planned and with the dimensions according to the digital model.
+
+There it is the dimensions of the digital model:
+
+&nbsp;
+
+<center>
+![Cura Screenshot 12](imgs/cura_screenshot_12.jpg){.centerGroup} &nbsp; ![Cura Screenshot 13](imgs/cura_screenshot_13.jpg){.centerGroup}
+</center>
+
+&nbsp;
+
+[//]: # ( ## Individual Assignment    &nbsp;    - Design and 3D print an object (small, few cm3, limited by printer time) that could not be easily made subtractively    - 3D scan an object, try to prepare it for printing (and optionally print it)   &nbsp; )
