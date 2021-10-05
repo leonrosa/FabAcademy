@@ -141,9 +141,9 @@ With that issue fixed, I could evaluate the testers that were printed.
 
 &nbsp;
 
-The ***Dimensional Accuracy tester*** came out as expected. After fixing the alignment issue that resulted in a elliptical body, the second printed tester came out rounded as planned and with the dimensions according to the digital model.
+The ***Dimensional Accuracy test*** came out as expected. After fixing the alignment issue that resulted in a elliptical body, the second printed tester came out rounded as planned and with the dimensions according to the digital model.
 
-There it is the dimensions of the digital model:
+Here it is the dimensions of the digital model:
 
 &nbsp;
 
@@ -152,5 +152,25 @@ There it is the dimensions of the digital model:
 </center>
 
 &nbsp;
+
+Here it is the dimensions of the printed part:
+
+&nbsp;
+
+<center>
+![Cura Screenshot 14](imgs/cura_screenshot_14.png){.centerGroup} &nbsp; ![Cura Screenshot 15](imgs/cura_screenshot_15.png){.centerGroup}
+</center>
+
+&nbsp;
+
+### Bridging Performance
+
+&nbsp;
+
+The ***Bridging Test*** also presented good results. The bridges were formed in all levels, but got a better finishing with the first and second one. I would recommend brigdings considering those distances.
+
+&nbsp;
+
+![Cura Screenshot 17](imgs/cura_screenshot_17.jpg){.center}
 
 [//]: # ( ## Individual Assignment    &nbsp;    - Design and 3D print an object (small, few cm3, limited by printer time) that could not be easily made subtractively    - 3D scan an object, try to prepare it for printing (and optionally print it)   &nbsp; )
