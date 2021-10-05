@@ -1,0 +1,84 @@
+/*Light Mode*/
+[data-md-color-scheme="lautrec"] {
+    /*Primary colors shade*/
+    --md-primary-fg-color:        #BF573F;
+    --md-primary-fg-color--light: #F2BFB3;
+    --md-primary-fg-color--dark:  #9F3222;
+    --md-primary-bg-color: #FFF5E1;
+    --md-primary-bg-color--light: #FFF5FA;
+
+    /*Default colors shade*/
+    --md-default-fg-color: #261E22;
+    --md-default-fg-color--light: #8F7180;  
+    --md-default-fg-color--lighter: #8F7180;
+    --md-default-fg-color--lightest: #FFC9E4;
+    --md-default-bg-color: #FFF5E1;
+    --md-default-bg-color--light: #FFF5EB;
+    --md-default-bg-color--lighter: #FFF5F5;
+    --md-default-bg-color--lightest: #FFF5FA;
+
+    /*Accent colors shade*/
+    --md-accent-fg-color: #D9B23D;
+    --md-accent-bg-color: #FFF5FA;
+  
+
+    /*Footer color shade*/
+    --md-footer-fg-color:              #FFF5E1;
+    --md-footer-fg-color--light:       #FFF5EB;
+    --md-footer-fg-color--lighter:     #FFF5F5;
+    --md-footer-bg-color:              #261E22;
+    --md-footer-bg-color--dark:        #8F7180;
+  }
+
+/*Dark Mode*/
+
+[data-md-color-scheme="lautrec_dark"] {
+  /*Primary colors shade*/
+  --md-primary-fg-color:        #BF573F;
+  --md-primary-fg-color--light: #F2BFB3;
+  --md-primary-fg-color--dark:  #9F3222;
+  --md-primary-bg-color: #FFF5E1;
+  --md-primary-bg-color--light: #FFF5FA;
+
+  /*Default colors shade*/
+  --md-default-fg-color: #FFF5E1;
+  --md-default-fg-color--light: #FFF5EB;  
+  --md-default-fg-color--lighter: #FFF5F5;
+  --md-default-fg-color--lightest: #FFF5FA;
+  --md-default-bg-color: #261E22;
+  --md-default-bg-color--light: #8F7180;
+  --md-default-bg-color--lighter: #8F7180;
+  --md-default-bg-color--lightest: #FFC9E4;
+
+  /*Accent colors shade*/
+  --md-accent-fg-color: #D9B23D;
+  --md-accent-bg-color: #FFF5FA;
+
+
+  /*Footer color shade*/
+  --md-footer-fg-color:              #FFF5E1;
+  --md-footer-fg-color--light:       #FFF5EB;
+  --md-footer-fg-color--lighter:     #FFF5F5;
+  --md-footer-bg-color:              #8F7180;
+  --md-footer-bg-color--dark:        #5E4B54;
+}
+
+/* Tamanho Padrão de Imagens*/
+
+
+.image {
+  width: 50vw;
+}
+
+
+
+/* Centralizar Imagens*/
+
+.center {
+    display: block;
+    margin: 0 auto;
+   }
+
+.centerGroup {
+  width: 30vw;
+}
